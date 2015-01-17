@@ -46,16 +46,5 @@ under the License.
         <Bug pattern="UPM_UNCALLED_PRIVATE_METHOD"/>
     </Match>
 
-    <Match>
-        <!-- Note:
-           Please check this exclusion. Maybe this is not a false
-           positive.
-           Oliver B. Fischer, 17.01.2015
-        -->
-        <Class name="org.apache.tamaya.core.internal.PropertiesFileLoader"
-               params="java.lang.String"
-               returns="java.util.Set"/>
-    </Match>
-
 
 </FindBugsFilter>
